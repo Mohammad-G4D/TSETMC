@@ -24,7 +24,7 @@ The architecture is built with a clean, modular design where each component hand
    * Fetches and aligns stock market symbols alongside key macroeconomic drivers:
      * **Global Markets & Commodities:** Oil, metals, petrochemicals, and DXY (`Commodities.py`).
      * **Macroeconomics:** Exchange rates (`USD.py`), bond yields / YTM (`YTM.py`), market liquidity (`Liquidity.py`), and energy pricing (`Gas_Price.py`).
-     * **Calendar & Temporal Factors:** Persian calendar alignment, holidays, and trading intervals (`Calendar_Features.py`).
+     * **Calendar & Temporal Factors:** Persian calendar alignment (`Calendar_Features.py`).
 2. **Data Imputation (`Imputation.py`):** Handles missing values in global and local market series using forward-fill strategies starting from the first valid index.
 3. **Stationarity Filtering (`Stationarity_Filter.py`):** Applies the Augmented Dickey-Fuller (ADF) statistical test to filter out non-stationary features, preventing spurious correlations in time-series modeling.
 4. **Supervised Transformation (`XGBoost_Dataset.py`):** Converts historical multi-feature time series into a sliding-window supervised learning format suitable for multi-step forecasting (e.g., looking back 60 steps to forecast 7 steps ahead).
