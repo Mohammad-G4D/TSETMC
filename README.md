@@ -36,12 +36,13 @@ The architecture is built with a clean, modular design where each component hand
 
 ## 📊 Model Evaluation & Visualization
 
-The pipeline features real-time interactive evaluation plots comparing actual closing prices against the 7-day walk-forward forecasts.
-
-Base Date: 1401-01-01 -> 7-Day Forecast Horizon
+The pipeline features real-time interactive evaluation plots comparing actual closing prices against the multi-step walk-forward forecasts across different iterations.
 
 <p align="center">
-  <img src="images/walk_forward_result.png" alt="Walk-Forward Prediction Sample" width="800">
+  <img src="images/result_0.png" alt="Walk-Forward Forecast 0" width="800">
+  <img src="images/result_1.png" alt="Walk-Forward Forecast 1" width="800">
+  <img src="images/result_2.png" alt="Walk-Forward Forecast 2" width="800">
+  <img src="images/result_3.png" alt="Walk-Forward Forecast 3" width="800">
 </p>
 
 ---
@@ -75,6 +76,6 @@ Base Date: 1401-01-01 -> 7-Day Forecast Horizon
    ```
 
 📌 **Future Enhancements**
-Expanding hyperparameter tuning sweeps for deep learning architectures (BiLSTM/CNN).
 
+Expanding hyperparameter tuning sweeps for deep learning architectures (BiLSTM/CNN).
 Integrating advanced portfolio optimization algorithms.
