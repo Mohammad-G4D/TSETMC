@@ -60,7 +60,7 @@ Base Date: 1401-01-01 -> 7-Day Forecast Horizon
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Mohammad-G4D/TSETMC.git](https://github.com/Mohammad-G4D/TSETMC.git)
+   git clone https://github.com/Mohammad-G4D/TSETMC.git
    cd TSETMC
    ```
    
