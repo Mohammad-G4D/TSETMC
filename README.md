@@ -11,7 +11,7 @@ This project is a personal research and engineering initiative focused on buildi
 ### 🔒 Public vs. Private Architecture (NDA & Confidentiality)
 To protect proprietary business logic, sensitive strategies, and NDA-bound assets, **this public repository contains a curated, modular subset of the full pipeline**. 
 * **Public Modules:** Data collection scripts, time-series imputation, ADF stationarity filtering, sliding-window sequence transformations, and the XGBoost walk-forward backtesting framework.
-* **Confidential/Excluded Modules:** Core proprietary feature engineering (`Feature_Engineering`), advanced price adjustment logic (`Adjust_Prices`), sentiment analysis (`Sentiment_Score`), and correlation filtering (`Correlation_Filter`) remain private and are excluded from this release.
+* **Confidential/Excluded Modules:** Core proprietary feature engineering (`Feature_Engineering`), advanced price adjustment logic (`Adjust_Prices`), and the list of stocks (`Stocks_List`) remain private and are excluded from this release.
 * **Broader Scope:** While the public codebase highlights the **XGBoost** implementation with Optuna optimization, the complete private system also incorporates models such as **CatBoost, BiLSTM, and Convolutional Neural Networks (CNN)**.
 
 ---
