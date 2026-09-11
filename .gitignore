@@ -1,0 +1,11 @@
+venv/
+.idea/
+*.csv
+*.xlsx
+*.png
+*.zip
+__pycache__/
+# Confidential Modules (Do not push)
+Adjust_Prices.py
+Feature_Engineering.py
+Calendar_Features.py
